@@ -1,0 +1,90 @@
+@import url(https://fonts.googleapis.com/css?family=Nunito);
+.active {
+  background: salmon;
+  color: #fff;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+:root {
+  --myFont: "Courier New", Courier, monospace;
+}
+
+body {
+  background-color: rgb(158, 198, 64);
+}
+
+#app {
+  margin: 50px;
+}
+
+h1 {
+  font-family: var(--myFont);
+  display: inline;
+  font-size: 5vw;
+}
+
+h2 {
+  font-family: var(--myFont);
+  font-size: 3.5vw;
+}
+
+h3 {
+  font-family: var(--myFont);
+  font-size: 2vw;
+}
+
+h4 {
+  font-family: var(--myFont);
+  font-size: 1.5vw;
+  padding: 5px;
+  background-color: #fbfeff;
+}
+
+a {
+  color: #000;
+  margin-right: 10px;
+  font-size: 1.5vw;
+}
+
+a:hover {
+  color: #fbfeff;
+}
+
+.img-footer {
+  background-color: #fbfeff;
+  margin-right: 0;
+  border-radius: 10px;
+}
+
+.footer-text {
+  position: fixed;
+  bottom: 0;
+}
+
+img {
+  display: inline;
+  margin-right: 10px;
+}
+
+li {
+  font-family: var(--myFont);
+}
+
+li + li {
+  margin-top: 5px;
+}
+
+label {
+  margin-left: 5px;
+}
+
+input[type=text] {
+  width: 100%;
+  resize: vertical;
+  font-size: 2vw;
+}
+
+input[type=checkbox] {
+  transform: scale(1.5);
+}
